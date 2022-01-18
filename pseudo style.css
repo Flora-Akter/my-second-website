@@ -14,10 +14,28 @@ h1{
 input:focus{
     color: darkred;
 }
-li:nth-child(2n){
+li:nth-of-type(2n){
     background-color: darkslategray;
-    color: deeppink;
+    color: red;
 }
 a:visited{
     color: rgb(3, 3, 95);
+}
+.special::after{
+    content: "Bye";
+    background-color: blueviolet;
+    color: crimson;
+
+}
+li::before{
+    content: "BYE";
+    color: springgreen;
+    background-color: steelblue;
+}
+body{
+    counter-reset: section;
+}
+p::before{
+    counter-increment: section;
+    content: "Friend" counter(section) ": ";
 }
