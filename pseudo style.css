@@ -12,7 +12,12 @@ h1{
     font-size: 70px
 }
 input:focus{
-    font-size: 70px;
-    font-weight: 20px;
     color: darkred;
+}
+li:nth-child(2n){
+    background-color: darkslategray;
+    color: deeppink;
+}
+a:visited{
+    color: rgb(3, 3, 95);
 }
