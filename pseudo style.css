@@ -1,0 +1,18 @@
+.box:hover{
+    background-color: blueviolet;
+}
+h1{
+    color: brown;
+    background-color: burlywood;
+    font-size: 20px;
+}
+.special{
+    color: chartreuse;
+    background-color: darkkhaki;
+    font-size: 70px
+}
+input:focus{
+    font-size: 70px;
+    font-weight: 20px;
+    color: darkred;
+}
