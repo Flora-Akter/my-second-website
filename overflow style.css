@@ -1,0 +1,21 @@
+div {
+    background-color: rgb(187, 77, 77);
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: auto;
+  }
+  #soni{
+    background-color: rgb(236, 231, 236);
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+  }
+  #sonu{
+    background-color: rgb(187, 169, 169);
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+  }
