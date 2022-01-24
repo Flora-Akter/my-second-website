@@ -3,11 +3,8 @@
     height: 200px;
     border: 5px solid springgreen;
     background-color: rgb(180, 140, 112);
-    transition: width 5s ease-in 3s
+    transition: backgroud-color 3s ease 3s
 }
 .trans:hover{
-    background-color: rgb(97, 29, 17);
-    width: 500px;
-    height: 300px;
-    
+    background-color: rgb(140, 20, 145);
 }
