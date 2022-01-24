@@ -1,11 +1,41 @@
-.ball{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: yellowgreen;
+@keyframes slidein{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    40%{
+        left: 300px;
+        top: 100px;
+        background-color: rgb(15, 7, 82);
+    }
+    60%{
+        left:600px;
+        top: 0;
+        background-color: yellow;
+    }
+    80%{
+        left: 800px;
+        top: 100px;
+        background-color: violet;
+    }
+    100%{
+        left: 1000px;
+        top: 0;
+        background-color: red;
+    }
 }
 .stage{
     background-color: saddlebrown;
     height: 200px;
     min-width: 800px;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+}
+.stage:hover .ball{
+    animation: slidein 5s ease-in-out 1s infinite alternate;
 }
