@@ -1,0 +1,17 @@
+.celender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.celender li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font: 4em sans-serif;
+    height: 125px;
+    background-color: lightsteelblue;
+}
+.diff-month{
+    background-color: peru!important
+}

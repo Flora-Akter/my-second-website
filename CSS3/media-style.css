@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.food{
+    border: 3px solid rebeccapurple;
+    border-radius: 30px;
+    margin: 10px;
+    width: 500px;
+
+}
+.food img{
+    width: 100%;
+}
+@media (max-width:760PX) {
+    .container{
+        flex-direction: column;
+    }
+    .container .food{
+        background-color: skyblue;
+    }
+}
+@media (min-width:1200px) {
+    .container .food{
+        background-color: thistle;
+    }
+}
