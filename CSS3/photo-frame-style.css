@@ -1,12 +1,35 @@
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
 .photo-frame{
     width: 300px;
-    height: 400px;
+    height: 200px;
     border: 10px solid greenyellow;
     border-radius: 10px;
+    position: relative;
 }
 .photo-frame .photo img{
     width: 100%;
 }
 .photo-detail{
     position: absolute;
+    display: none;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: rgb(192, 216, 151);
+}
+.photo-frame:hover .photo-detail h3{
+    color: white;
+    text-align: center;
+    background-color: tomato;
+}
+.photo-frame:hover .photo-detail p{
+    color: white;
+    text-align: justify;
 }
