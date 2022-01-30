@@ -8,9 +8,15 @@
     border: 10px solid greenyellow;
     border-radius: 10px;
     position: relative;
+    margin: 10px;
+    overflow: hidden;
 }
 .photo-frame .photo img{
     width: 100%;
+}
+.photo-frame:hover .photo img{
+    transform: rotate(30deg);
+    transition: transform 3s;
 }
 .photo-detail{
     position: absolute;
@@ -22,13 +28,14 @@
 }
 .photo-frame:hover .photo-detail{
     display: block;
-    background-color: rgb(192, 216, 151);
+    background-color: rgb(231, 236, 222);
 }
 .photo-frame:hover .photo-detail h3{
     color: white;
     text-align: center;
-    background-color: tomato;
+    background-color: black;
 }
+
 .photo-frame:hover .photo-detail p{
     color: white;
     text-align: justify;
