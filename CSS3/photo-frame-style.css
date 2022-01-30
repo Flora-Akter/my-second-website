@@ -1,0 +1,12 @@
+.photo-frame{
+    width: 300px;
+    height: 400px;
+    border: 10px solid greenyellow;
+    border-radius: 10px;
+}
+.photo-frame .photo img{
+    width: 100%;
+}
+.photo-detail{
+    position: absolute;
+}
